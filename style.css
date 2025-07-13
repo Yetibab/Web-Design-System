@@ -1,3 +1,28 @@
-#header {
-    font-family: Aboreto;
+body {
+
 }
+
+#title {
+    font-family: "Bungee Inline";
+}
+
+#header {
+    font-size: 10em;
+    font-family: "Funnel Display";
+    position: relative;
+    top: -0.6em;
+    color: #B9CEAC;
+}
+
+#headerImage {
+}
+
+#subheader {
+    font-size: 2em;
+    font-family: 'Funnel Display', sans-serif;
+    position: relative;
+    color: #B9CEAC;
+    padding-top: -5em;
+}
+
+
