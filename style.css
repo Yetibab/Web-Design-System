@@ -1,10 +1,11 @@
 body, html {
   height: 100%;
+  background-color: #2C442A;
 }
 
 #title {
-    font-size: 7em;
-    color: #333;
+    font-size: 7.5em;
+    color: #21343b;
     text-align: center;
     font-family: "Bruno Ace SC";
     z-index: 1;
@@ -25,3 +26,58 @@ body, html {
     height: 100%;
 }
 
+#headerIntro {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 75%;
+    left: 50%;
+    font-family: "TikTok Sans";
+    font-size: 4em;
+    font-weight: 800;
+    color: #2C442A;
+    transform: translate(-50%, -50%);
+}
+
+#content {
+    color: #ffe68b;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#welcome {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Bruno Ace SC";
+    font-size: 3em;
+}
+
+#About {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Tinos";
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 1em;
+}
+
+p, h3, li {
+    font-family: "Tinos";
+    font-size: 1.5em;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 4em;
+}
+
+#Features {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "TikTok Sans";
+}
