@@ -125,17 +125,12 @@ li {
     padding-left: 9.5em;
 }
 
-# {}
-# {}
-# {}
-# {}
-# {}
-# {}
-# {}
-# {}
-# {}
-# {}
-# {}
-# {}
-# {}
-# {}
+table {
+    color: #ffe68b;
+}
+
+th {
+    font-family: "Bruno Ace SC";
+    font-size: 2em;
+    padding-left: 3em;
+}
