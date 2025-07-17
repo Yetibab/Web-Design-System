@@ -5,66 +5,54 @@ body, html {
 
 #title {
     font-size: 7.5em;
-    color: #21343b;
+    color: #ffe68b;
     text-align: center;
-    font-family: "Bruno Ace SC";
+    font-family: "Raleway";
     z-index: 1;
     position: absolute;
     top: -80px;
-    left: 0%;
+    left: 0.5em;
 }
 
-#image {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    z-index: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  
-    height: 100%;
-}
-
-#headerIntro {
+#intro {
     position: absolute;
     z-index: 1;
     text-align: center;
-    top: 75%;
+    top: 50%;
     left: 50%;
-    font-family: "TikTok Sans";
+    font-family: "Raleway";
     font-size: 4em;
     font-weight: 800;
-    color: #2C442A;
+    color: #ffe68b;
     transform: translate(-50%, -50%);
 }
 
 #content {
     color: #ffe68b;
     text-align: center;
-    margin-top: 20px;
 }
 
 #welcome {
     font-size: 2em;
     text-align: center;
-    margin-top: 2em;
-    font-family: "Bruno Ace SC";
+    margin-top: 12em;
+    font-family: "Raleway";
     font-size: 4em;
+    color: #ffe68b;
 }
 
-#About {
+#about {
     font-size: 2em;
     text-align: center;
     margin-top: 2em;
-    font-family: "Tinos";
-    padding-left: 10em;
-    padding-right: 10em;
+    font-family: "Bitter";
+    padding-left: 8em;
+    padding-right: 8em;
     padding-top: 1em;
 }
 
 p, h3, li {
-    font-family: "Tinos";
+    font-family: "Bitter";
     font-size: 1.5em;
     list-style-type: none;
 }
@@ -76,30 +64,30 @@ li {
     margin-top: 3em;
 }
 
-#Features {
+#features {
     font-size: 2em;
     text-align: center;
     margin-top: 5em;
-    font-family: "TikTok Sans";
+    font-family: "Raleway";
 }
 
 #Explore {
     font-size: 2em;
     text-align: center;
     margin-top: 4em;
-    font-family: "TikTok Sans";
+    font-family: "Raleway";
 }
 
 #ColourTitle {
-    font-family: "Bruno Ace SC";
+    font-family: "Raleway";
     color: #ffe68b;
-    margin-top: 5em;
+    margin-top: 2em;
     text-align: center;
-    font-size: 3em;
+    font-size: 5em;
 }
 
 #ColourIntro {
-    font-family: "Tinos";
+    font-family: "Bitter";
     color: #ffe68b;
     text-align: center;
     font-size: 2em;
@@ -107,27 +95,10 @@ li {
     padding: 2em 7em 0 7em;
 }
 
-#colourContrastBackground {
-    font-family: "TikTok Sans";
-    color: #ffe68b;
-    text-align: left;
-    font-size: 3em;
-    margin-top: 3em;
-    padding-left: 5em;
-}
 
-.colorContrastBackgroundColours {
-    font-family: "Tinos";
-    color: #ffe68b;
-    text-align: left;
-    font-size: 2em;
-    margin-top: 1em;
-    padding-left: 9.5em;
-}
 
 table {
     color: #ffe68b;
-    left: 6em;
     text-align: center;
     position: relative;
     padding-top: 3em;
@@ -138,15 +109,15 @@ table {
 }
 
 th {
-    font-family: "Bruno Ace SC";
+    font-family: "Raleway";
     font-size: 2em;
 }
 
 #colorContrastBackgroundColours {
-    font-family: "Tinos";
+    font-family: "Bitter";
     color: #ffe68b;
-    text-align: left;
-    font-size: 1.5em;
+    text-align: center;
     margin-top: 1em;
-    padding-left: 4em;
+    font-size: 5em;
 }
+
