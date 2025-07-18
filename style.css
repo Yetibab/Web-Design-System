@@ -7,6 +7,22 @@ h1, h2, h3, h4, p {
     color: #ffe68b;
 }
 
+p, h3, li {
+    font-family: "Bitter";
+    font-size: 1.5em;
+    list-style-type: none;
+}
+
+.keyFeaturesList {
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 4em;
+    margin-top: 3em;
+    color: #ffe68b;
+    text-align: center;
+    
+}
+
 #title {
     font-size: 7.5em;
     color: #ffe68b;
@@ -69,6 +85,14 @@ h1, h2, h3, h4, p {
     font-family: "Raleway";
 }
 
+#tipsHeader {
+    font-family: "Raleway";
+    color: #ffe68b;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2em;
+}
+
 #ColourTitle {
     font-family: "Raleway";
     color: #ffe68b;
@@ -86,41 +110,97 @@ h1, h2, h3, h4, p {
     padding: 2em 7em 0 7em;
 }
 
-
-
-table {
-    color: #ffe68b;
-    text-align: center;
-    position: relative;
-    padding-top: 3em;
-    padding-bottom: 10em;
-    padding-left: 20em;
-    padding-right: 20em;
-    width: 90%;
-}
-
-th {
-    font-family: "Raleway";
-    font-size: 2em;
-}
-
-#colorContrastBackgroundColours {
+.colourTips {
     font-family: "Bitter";
     color: #ffe68b;
     text-align: center;
-    margin-top: 1em;
+    font-size: 1.5em;
+    margin-top: 2em;
+    padding-left: 8em;
+    padding-right: 6em;
+    display: inline-block;
+}
+
+#ButtonsTitle {
+    font-family: "Raleway";
+    color: #ffe68b;
+    margin-top: 2em;
+    text-align: center;
     font-size: 5em;
 }
 
-p, h3, li {
+#ButtonsIntro {
     font-family: "Bitter";
-    font-size: 1.5em;
-    list-style-type: none;
+    color: #ffe68b;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+    padding: 2em 7em 0 7em;
 }
 
-li {
+.ButtonsTips {
+    font-family: "Bitter";
+    color: #ffe68b;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+    padding-left: 9em;
+    padding-right: 5em;
     display: inline-block;
-    padding-left: 2em;
-    padding-right: 4em;
-    margin-top: 3em;
+}
+
+#ImagesTitle {
+    font-family: "Raleway";
+    color: #ffe68b;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 5em;
+}
+
+#ImagesIntro {
+    font-family: "Bitter";
+    color: #ffe68b;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+    padding: 2em 7em 0 7em;
+}
+
+.ImagesTips {
+    font-family: "Bitter";
+    color: #ffe68b;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+    padding-left: 7em;
+    padding-right: 6em;
+    display: inline-block;
+}
+
+#TextTitle {
+    font-family: "Raleway";
+    color: #ffe68b;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 5em;
+}
+
+#TextIntro {
+    font-family: "Bitter";
+    color: #ffe68b;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+    padding: 2em 7em 0 7em;
+}
+
+.TextTips {
+    font-family: "Bitter";
+    color: #ffe68b;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+    padding-left: 8em;
+    padding-right: 6em;
+    display: inline-block;
 }
